@@ -84,7 +84,6 @@ class App {
     this.title = $noteTitle.innerText;
     this.text = $noteText.innerText;
     this.id = $clickedNote.dataset.id;
-    console.log(this.title, this.text);
   }
 
   openForm() {
@@ -113,7 +112,6 @@ class App {
     this.renderNotes();
     this.$noteTitle.value = "";
     this.$noteText.value = "";
-    console.log(this.notes);
   }
 
   editNote(event) {
